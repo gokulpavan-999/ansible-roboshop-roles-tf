@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.pavandevops.fun
-REDIS_HOST: redis.pavandevops.fun
-CATALOGUE_HOST: catalogue.pavandevops.fun
-CART_HOST: cart.pavandevops.fun
-USER_HOST: user.pavandevops.fun
-RABBITMQ_HOST: rabbitmq.pavandevops.fun
-MYSQL_HOST: mysql.pavandevops.fun
-SHIPPING_HOST: shipping.pavandevops.fun
-PAYMENT_HOST: payment.pavandevops.fun
+MONGODB_HOST: mongodb-{{ env }}.pavandevops.fun
+REDIS_HOST: redis-{{ env }}.pavandevops.fun
+CATALOGUE_HOST: catalogue-{{ env }}.pavandevops.fun
+CART_HOST: cart-{{ env }}.pavandevops.fun
+USER_HOST: user-{{ env }}.pavandevops.fun
+RABBITMQ_HOST: rabbitmq-{{ env }}.pavandevops.fun
+MYSQL_HOST: mysql-{{ env }}.pavandevops.fun
+SHIPPING_HOST: shipping-{{ env }}.pavandevops.fun
+PAYMENT_HOST: payment-{{ env }}.pavandevops.fun
