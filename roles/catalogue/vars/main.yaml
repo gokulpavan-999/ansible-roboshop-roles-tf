@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.pavandevops.fun
+MONGODB_HOST: mongodb-{{ env }}.pavandevops.fun
