@@ -1,3 +1,8 @@
-- name: daemon reload 
-  ansible.builtin.system_service:
+- name: daemon reload
+  ansible.builtin.systemd:
     daemon_reload: true
+
+- name: restart catalogue
+  ansible.builtin.systemd:
+    name: catalogue
+    state: restarted
